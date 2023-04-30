@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 5.099 s <<< FAILURE! - in TestSuite
+TestCases.LoginTest.Negative  Time elapsed: 0.086 s  <<< FAILURE!
+com.codoid.products.exception.FilloException: data table is not found
+	at TestCases.LoginTest.Negative(LoginTest.java:39)
+
+TestCases.LoginTest.Positive  Time elapsed: 0 s  <<< FAILURE!
+com.codoid.products.exception.FilloException: data table is not found
+	at TestCases.LoginTest.Positive(LoginTest.java:18)
+
